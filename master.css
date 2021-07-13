@@ -1,0 +1,137 @@
+* {
+  margin:0
+}
+body {                                     /*immagine di sfondo*/
+  margin: auto;
+  background-image: url(background-min.jpg);
+  background-position: center top;
+  background-repeat: no-repeat no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+
+}
+
+.contenitore1{                              /*layout hud*/
+  margin: auto;
+  margin-top: 20px;
+  border-radius: 10px;
+  width: 60%;
+  height: 900px;
+  background-color: rgba(0, 0, 0, 0.5);
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.logotext {                                 /*blocco logo + testo "Talking Booleaners..." */
+  text-align: center;
+}
+
+.logo {                                     /*dimensioni logo*/
+  width:23%;
+  height: auto;
+  margin-top: 100px;
+}
+
+.logotextfont, .mono-near-me {                             /*font di Google.fonts*/
+  font-size: 200%;
+  color: lime;
+  margin-bottom: -15px;
+}
+
+.monotool {                                  /* interfaccia per l'utente*/
+
+  margin: auto;
+  margin-top: 5px;
+  width: 83%;
+  height: 45px;
+  background: lime;
+  border-radius: 5px;
+}
+
+div.buttons {                                  /* interfaccia per l'utente*/
+  text-align: center;
+  margin:auto;
+  padding-top: 13px;
+}
+
+.contenitore2 {
+  margin: auto;                                   /* interfaccia per l'utente*/
+  margin-top: 10px;
+  width: 83%;
+  height: auto;
+}
+
+.disegno {
+  border-radius: 40%;
+  background-color: red ;
+  width: 40%;
+  height: auto;
+  margin-top: -5px;
+
+}
+.contenitore2 > .mono-near-me {                    /*due tag inline= posizione monopatino + monopattino "n"*/
+  color: white;
+  display: inline-block;
+  font-size: 25px;
+  margin-left: 5px;
+  margin-top:3%;
+}
+
+.raw1, .raw2, .raw3{                              /*colore+grandezza scritta luogo*/
+  color: white;
+  margin-top: 1%;
+  font-size: 115%;
+}
+.raw1 {
+  color: white;
+
+
+}
+
+.raw2, .monogps {
+  color: white;
+
+}
+
+.raw3 {
+  color: white;
+}
+
+
+
+a{
+  text-decoration: none; font-weight: bold; color: #0000FF
+  color: #0080FF;
+}
+
+.battery1, .battery2, .battery3 {               /*le batterie dei monopattini*/
+  margin-top: 1%;
+  padding-top: 5px;
+  border-radius: 8px;
+}
+
+
+
+.battery1 {
+  width: 66%;
+  height: 30px;
+  background-color: orange;
+}
+
+.batterylife {
+  padding-left: 11px;
+}
+
+.battery2 {
+  width: 31%;
+  height:auto;
+  background-color: red;
+  padding-bottom: 3px;
+}
+
+.battery3 {
+  width: 85%;
+  height:auto;
+  background-color: green;
+  padding-bottom: 3px;
+}
